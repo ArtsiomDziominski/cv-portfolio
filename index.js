@@ -7,6 +7,6 @@ frame.addEventListener(`mousemove`, function (e) {
 });
 
 frame.addEventListener(`mouseleave`, function () {
-    dot.style.top = `0`;
+    dot.style.top = `-30`;
     dot.style.left = `50%`;
 });

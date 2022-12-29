@@ -1,0 +1,15 @@
+.theme-dark {
+    --background: #1b2560;
+    --color: white;
+
+    --header-background: #3e498a;
+    --header-color: #ffffff;
+    --header-color-hover: #919090;
+
+    --main-background: #3e498a;
+    --main-color: #ffffff;
+
+    --all-skills-background: #2c6464;
+
+    --projects-box-shadow: 0 0 5px #051e46;
+}

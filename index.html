@@ -3,11 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <title>Artsiom Dziominski</title>
-    <link type="text/css" rel="stylesheet" href="style.css">
-    <link type="text/css" rel="stylesheet" href="dot.css">
-    <script src="index.js" defer></script>
+    <link type="text/css" rel="stylesheet" href="css/style.css">
+    <link type="text/css" rel="stylesheet" href="css/dot.css">
+    <script src="js/dot.js" defer></script>
+    <script src="js/themes.js" defer></script>
 </head>
-<body>
+<body class="theme-light" id="theme">
 <div class="frame">
     <div class="dot">
         <div class="ring"></div>
@@ -20,7 +21,7 @@
         <a href="#projects">Проекты</a>
         <a href="#skills">Скилы</a>
     </nav>
-    <button class="toggle_mode"><img src="static/img/dark_mode.svg" alt="Dark mode"></button>
+    <button class="change-theme" id="change-theme"><img id="change-theme-img" src="static/img/dark_mode.svg" alt="Dark mode"></button>
 </header>
 <main>
     <section class="intro">

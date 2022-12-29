@@ -1,0 +1,15 @@
+.theme-light {
+    --background: #e9d5a1;
+    --color: black;
+
+    --header-background: white;
+    --header-color: black;
+    --header-color-hover: #676767;
+
+    --main-background: white;
+    --main-color: black;
+
+    --all-skills-background: aqua;
+
+    --projects-box-shadow: 0 0 5px black;
+}

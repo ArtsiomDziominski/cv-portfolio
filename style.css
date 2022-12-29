@@ -1,0 +1,217 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #e9d5a1;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 50px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: white;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+}
+
+header nav a {
+    margin: 0 10px;
+}
+
+header .toggle_mode {
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    cursor: pointer;
+}
+
+header .toggle_mode img {
+    width: 30px;
+    height: 30px;
+}
+
+main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+main .about__wrapper {
+    margin: auto;
+    max-width: 1440px;
+}
+
+main .intro {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.intro .intro__photo {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 30px 0;
+}
+
+.intro h1 {
+    margin: 15px 0;
+}
+
+.intro h2 {
+    margin: 15px 0;
+}
+
+main .about {
+    background-color: white;
+    padding: 70px 0;
+}
+
+.about .about__title {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+}
+
+.about .about__contacts {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+}
+
+.about .about__contacts a {
+    width: 25px;
+    height: 25px;
+    margin: 0 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about .about__contacts a img {
+    width: 20px;
+    height: 20px;
+}
+
+.about .about__contacts a img:hover {
+    width: 25px;
+    height: 25px;
+}
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 70px 0;
+}
+
+.skills .skills__wrapper {
+    margin: auto;
+    max-width: 1440px;
+}
+
+.skills .skills__title {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+}
+
+.skills .all-skills {
+    width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 50px 0;
+}
+
+.skills .all-skills p {
+    background-color: aqua;
+    margin: 5px 10px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.skills .all-skills p:hover {
+    font-size: 18px;
+}
+
+.projects {
+    background-color: white;
+    padding: 70px 0;
+}
+
+.projects .projects__wrapper {
+    margin: auto;
+    max-width: 1440px;
+}
+
+.projects .projects__title {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+}
+
+.projects .projects__list {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+}
+
+.projects .projects__list .project {
+    width: 33%;
+    margin: 0 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px black;
+}
+
+.projects .projects__list .project p {
+    margin: 20px 0;
+}
+
+.projects .projects__list .project .project__image {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.projects .projects__list .project .project__stake {
+    display: flex;
+    justify-content: center;
+}
+
+.projects .projects__list .project .project__stake p {
+    margin: 5px;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px black;
+}
+
+.projects .projects__list .project a {
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    margin: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+footer a {
+    margin: 5px;
+}

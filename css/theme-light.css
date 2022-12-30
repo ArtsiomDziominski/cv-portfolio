@@ -1,5 +1,5 @@
 .theme-light {
-    --background: #e9d5a1;
+    --background: linear-gradient(to right, #45333d, #41405b, #342c3d);
     --color: black;
 
     --header-background: white;

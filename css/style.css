@@ -1,11 +1,16 @@
 @import url(theme-light.css);
 @import url(theme-dark.css);
 
+html {
+    scroll-behavior: smooth;
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 a {
     text-decoration: none;
 }
@@ -14,7 +19,7 @@ body {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    background-color: var(--background);
+    background-image: var(--background);
     color: var(--color);
 }
 
@@ -22,10 +27,12 @@ header {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    padding: 30px 50px;
+    align-items: center;
+    padding: 15px 50px;
     position: absolute;
     top: 0;
     left: 0;
+    z-index: 2;
     background-color: var(--header-background);
     color: var(--header-color);
 }
@@ -38,7 +45,6 @@ header nav {
 header nav a {
     font-size: 26px;
     color: var(--color);
-    margin: 0 10px;
 }
 
 header nav a:hover {
@@ -49,11 +55,18 @@ header .change-theme {
     background-color: rgba(255, 255, 255, 0);
     border: none;
     cursor: pointer;
+    position: relative;
 }
 
 header .change-theme img {
     width: 30px;
     height: 30px;
+}
+
+header .change-theme p {
+    position: absolute;
+    left: 5px;
+    color: var(--color);
 }
 
 main {
@@ -74,21 +87,32 @@ main .intro {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-image: url("mountains.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: sticky;
+    z-index: 1;
 }
 
 .intro .intro__photo {
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     border-radius: 50%;
     margin: 30px 0;
+    border: 10px solid white;
+    box-shadow: 0 0 15px black;
 }
 
 .intro h1 {
     margin: 15px 0;
+    text-shadow: #ffffff 5px 5px 35px;
 }
 
 .intro h2 {
     margin: 15px 0;
+    text-shadow: #ffffff 5px 5px 35px;
 }
 
 main .about {
@@ -117,21 +141,11 @@ main .about {
     align-items: center;
 }
 
-.about .about__contacts a img {
-    width: 20px;
-    height: 20px;
-}
-
-.about .about__contacts a img:hover {
-    width: 25px;
-    height: 25px;
-}
-
 .skills {
     display: flex;
     flex-direction: column;
-    margin: auto;
     padding: 70px 0;
+    margin: 0 20px;
 }
 
 .skills .skills__wrapper {
@@ -148,20 +162,21 @@ main .about {
 .skills .all-skills {
     width: 600px;
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     padding: 50px 0;
 }
 
-.skills .all-skills p {
-    background-color: var(--all-skills-background);
-    margin: 5px 10px;
-    padding: 5px;
+.skills .all-skills li {
+    margin: 5px;
     border-radius: 5px;
+    list-style-type: none;
 }
 
-.skills .all-skills p:hover {
-    font-size: 18px;
+.skills .all-skills li p {
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+    background-color: var(--all-skills-background);
 }
 
 .projects {
@@ -189,10 +204,18 @@ main .about {
 .projects .projects__list .project {
     width: 33%;
     margin: 0 20px;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 5px black;
+    padding: 40px;
     cursor: default;
+    border-radius: 40px;
+    background: white;
+    box-shadow:  15px 15px 30px #bebebe;
+    transition: all .3s;
+}
+
+.projects .projects__list .project:hover {
+    position: revert;
+    margin-top: -30px;
+    margin-bottom: 30px;
 }
 
 .projects .projects__list .project p {

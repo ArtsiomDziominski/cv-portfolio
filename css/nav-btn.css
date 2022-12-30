@@ -1,0 +1,87 @@
+.nav__about,
+.nav__about::after {
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+.nav__about:active {
+    --border-width: 5px;
+}
+
+.nav__about {
+    padding: 0.5em 0.7em;
+    border: none;
+    outline: none;
+    color: #000000;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 22px;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 32px;
+}
+
+.nav__about:hover {
+    color: #000000;
+}
+
+.nav__about::after {
+    content: "";
+    z-index: -1;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0);
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+
+.nav__about::before {
+    content: "";
+    background: linear-gradient(
+            45deg,
+            #fdcecd, #fde4d6, #9a95bf, #565a87,
+            #565a87, #a09cc4, #fde2d8, #fdd1d0
+    );
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    background-size: 600%;
+    z-index: -1;
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    filter: blur(8px);
+    animation: glowing345 20s linear infinite;
+    transition: opacity .3s ease-in-out;
+    border-radius: 20px;
+    opacity: 0;
+}
+
+@keyframes glowing345 {
+    0% {
+        background-position: 0 0;
+    }
+
+    50% {
+        background-position: 400% 0;
+    }
+
+    100% {
+        background-position: 0 0;
+    }
+}
+
+.nav__about:hover::before {
+    opacity: 1;
+}
+
+.nav__about:active:after {
+    background: transparent;
+}
+
+.nav__about:active {
+    color: #000;
+    font-weight: bold;
+}

@@ -87,6 +87,7 @@ main .intro {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    color: var(--color-text-on-the-black-background);
     background-color: rgba(0, 0, 0, 0.5);
     background-image: url("mountains.svg");
     background-size: cover;
@@ -107,12 +108,12 @@ main .intro {
 
 .intro h1 {
     margin: 15px 0;
-    text-shadow: #ffffff 5px 5px 35px;
+    text-shadow: #000000 3px -2px 5px;
 }
 
 .intro h2 {
     margin: 15px 0;
-    text-shadow: #ffffff 5px 5px 35px;
+    text-shadow: #000000 3px -2px 5px;
 }
 
 main .about {
@@ -157,26 +158,30 @@ main .about {
     display: flex;
     justify-content: center;
     padding: 50px 0;
+    color: var(--color-text-on-the-black-background);
+    text-shadow: #000000 3px -2px 5px;
 }
 
 .skills .all-skills {
-    width: 600px;
     display: flex;
     justify-content: center;
     padding: 50px 0;
 }
 
-.skills .all-skills li {
+.skills .all-skills .skills__block {
     margin: 5px;
     border-radius: 5px;
     list-style-type: none;
+    cursor: default;
 }
 
-.skills .all-skills li p {
+.skills .all-skills .skills__block p {
     padding: 5px;
     margin: 5px;
     border-radius: 5px;
     background-color: var(--all-skills-background);
+    transition: opacity .3s ease-in-out;
+    animation: glowing345 20s linear infinite;
 }
 
 .projects {
@@ -208,7 +213,7 @@ main .about {
     cursor: default;
     border-radius: 40px;
     background: white;
-    box-shadow:  15px 15px 30px #bebebe;
+    box-shadow: 15px 15px 30px #bebebe;
     transition: all .3s;
 }
 

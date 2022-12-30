@@ -2,8 +2,29 @@
   "lang": "ru",
   "name": "Артём Дёминский",
   "mail": "artsiomdziominski@gmail.com",
-  "hello": "Привет, меня зовут Артём Дёминский",
-  "helloNext": "я начинающий frontend-разработчик :)",
-  "aboutTitle": "О себе",
-  "aboutText": "Всегда был увлечен технологиями и мне нравится создавать что-то своё. Разрабатывал серверы для SAMP, писал на языке PAWN. Самообучался языку Python, после чего увлекся frontend-разработкой и решил строить свою карьеру по этому направлению."
+  "hello": "Привет, меня зовут Артём.",
+  "helloNext": "Я начинающий frontend-разработчик :)",
+  "about": {
+    "aboutTitle": "О себе",
+    "aboutText": "Всегда был увлечен технологиями и мне нравится создавать что-то своё. Разрабатывал серверы для SAMP, писал на языке PAWN. Самообучался языку Python, после чего увлекся frontend-разработкой и решил строить свою карьеру по этому направлению."
+  },
+  "skills": {
+    "skillsTitle": "Скилы"
+  },
+  "projects": {
+    "projectTitle": "Проекты",
+    "project1": {
+      "title": "Торговая платформа для Binance",
+      "about": "Built an internal tool for analysing Workrooms Meetings used by 70+ Data, Software and QA Engineers."
+    },
+    "project2": {
+      "title": "Создание постов",
+      "about": "Built an internal tool for analysing Workrooms Meetings used by 70+ Data, Software and QA Engineers."
+    },
+    "project3": {
+      "title": "Список дел(ToDo list)",
+      "about": "Built an internal tool for analysing Workrooms Meetings used by 70+ Data, Software and QA Engineers."
+
+    }
+  }
 }

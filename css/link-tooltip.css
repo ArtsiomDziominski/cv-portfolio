@@ -1,4 +1,4 @@
-.wrapper-link {
+.about__contacts {
     display: inline-flex;
     list-style: none;
     height: 120px;
@@ -8,7 +8,7 @@
     justify-content: center;
 }
 
-.wrapper-link .link {
+.about__contacts .about__link {
     position: relative;
     background: #fff;
     border-radius: 50%;
@@ -25,16 +25,20 @@
     transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 
-.wrapper-link .link img {
+.about__contacts .about__link:hover {
+    background-color: #a29ec4;
+}
+
+.about__contacts .about__link img {
     width: 20px;
     height: 20px;
 }
 
-.wrapper-link .tooltip {
+.about__contacts .about__link .about__link_tooltip {
     position: absolute;
     top: 0;
     font-size: 14px;
-    background: #fff;
+    background: #6c18ff;
     color: #fff;
     padding: 5px 8px;
     border-radius: 5px;
@@ -44,33 +48,8 @@
     transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 
-.wrapper-link .tooltip::before {
+.about__contacts .about__link:hover .about__link_tooltip {
     position: absolute;
-    content: "";
-    height: 8px;
-    width: 8px;
-    background: #fff;
-    bottom: -3px;
-    left: 50%;
-    transform: translate(-50%) rotate(45deg);
-    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-}
-
-.wrapper-link .icon:hover .tooltip {
-    top: -45px;
+    top: -40px;
     opacity: 1;
-    visibility: visible;
-    pointer-events: auto;
-}
-
-.wrapper-link .icon:hover span,
-.wrapper-link .icon:hover .tooltip {
-    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.1);
-}
-
-.wrapper-link .link:hover,
-.wrapper-link .link:hover .tooltip,
-.wrapper-link .link:hover .tooltip::before {
-    background: #1877F2;
-    color: #fff;
 }

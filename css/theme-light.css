@@ -1,6 +1,7 @@
 .theme-light {
     --background: linear-gradient(to right, #45333d, #41405b, #342c3d);
     --color: black;
+    --color-text-on-the-black-background: #ffffff;
 
     --header-background: white;
     --header-color: black;
@@ -9,7 +10,7 @@
     --main-background: white;
     --main-color: black;
 
-    --all-skills-background: aqua;
+    --all-skills-background: #a198c1;
 
     --projects-box-shadow: 0 0 5px black;
 }

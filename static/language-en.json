@@ -2,8 +2,28 @@
   "lang": "en",
   "name": "Artsiom Dziominski",
   "mail": "artsiomdziominski@gmail.com",
-  "hello": "Hi, I'm Artem",
+  "hello": "Hi, I'm Artsiom.",
   "helloNext": "I'm beginning  frontend-developer :)",
-  "aboutTitle": "About myself",
-  "aboutText": "I have always been passionate about technology and I like to create something of my own. Developed servers for SAMP, wrote in PAWN. Self-taught the Python language, after which he became interested in frontend development and decided to build his career in this direction."
+  "about": {
+    "aboutTitle": "About myself",
+    "aboutText": "I have always been passionate about technology and I like to create something of my own. Developed servers for SAMP, wrote in PAWN. Self-taught the Python language, after which he became interested in frontend development and decided to build his career in this direction."
+  },
+  "skills": {
+    "skillsTitle": "Skills"
+  },
+  "projects": {
+    "projectTitle": "Project",
+    "project1": {
+      "name": "Trading platform for Binance",
+      "about": "Built an internal tool for analysing Workrooms Meetings used by 70+ Data, Software and QA Engineers."
+    },
+    "project2": {
+      "name": "Create posts",
+      "about": "Built an internal tool for analysing Workrooms Meetings used by 70+ Data, Software and QA Engineers."
+    },
+    "project3": {
+      "name": "ToDo list",
+      "about": "Built an internal tool for analysing Workrooms Meetings used by 70+ Data, Software and QA Engineers."
+    }
+  }
 }

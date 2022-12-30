@@ -14,15 +14,15 @@
   "projects": {
     "projectTitle": "Проекты",
     "project1": {
-      "title": "Торговая платформа для Binance",
+      "name": "Торговая платформа для Binance",
       "about": "Built an internal tool for analysing Workrooms Meetings used by 70+ Data, Software and QA Engineers."
     },
     "project2": {
-      "title": "Создание постов",
+      "name": "Создание постов",
       "about": "Built an internal tool for analysing Workrooms Meetings used by 70+ Data, Software and QA Engineers."
     },
     "project3": {
-      "title": "Список дел(ToDo list)",
+      "name": "Список дел(ToDo list)",
       "about": "Built an internal tool for analysing Workrooms Meetings used by 70+ Data, Software and QA Engineers."
 
     }

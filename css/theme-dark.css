@@ -1,15 +1,25 @@
 .theme-dark {
-    --background: #1b2560;
+    --background: linear-gradient(to right, rgb(69, 51, 61), rgb(65, 64, 91), rgb(52, 44, 61));
     --color: white;
+    --color-text-on-the-black-background: white;
+    --color-text-on-the-light-background: white;
 
-    --header-background: #3e498a;
-    --header-color: #ffffff;
-    --header-color-hover: #919090;
+    --header-background: linear-gradient(to right, rgba(69, 51, 61, 0.6), rgba(65, 64, 91, 0.6), rgba(52, 44, 61, 0.6));
+    --header-color: black;
+    --header-color-hover: black;
+    --header-color-link-text-shadow: 0 0 10px white;
 
-    --main-background: #3e498a;
-    --main-color: #ffffff;
+    --main-background: #363e4e;
+    --main-color: white;
 
-    --all-skills-background: #2c6464;
+    --intro-color: white;
+    --intro-background-dow-cv: #42405a;
+    --intro-photo-box-shadow: 0 0 15px black;
 
-    --projects-box-shadow: 0 0 5px #051e46;
+    --all-skills-background: #a198c1;
+    --all-skills-color: #000000;
+
+    --projects-box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.15);
+
+    --about-link-background: rgb(67, 64, 91);
 }

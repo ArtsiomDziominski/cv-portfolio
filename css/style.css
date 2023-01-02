@@ -33,8 +33,8 @@ header {
     top: 0;
     left: 0;
     z-index: 2;
-    background-color: var(--header-background);
     color: var(--header-color);
+    background-image: var(--header-background);
 }
 
 header nav {
@@ -42,9 +42,13 @@ header nav {
     align-items: center;
 }
 
+header h3 {
+    text-shadow: var(--header-color-link-text-shadow);
+}
+
 header nav a {
     font-size: 26px;
-    color: var(--color);
+    color: var(--header-color);
 }
 
 header nav a:hover {
@@ -66,7 +70,7 @@ header .change-theme img {
 header .change-theme p {
     position: absolute;
     left: 5px;
-    color: var(--color);
+    color: var(--header-color);
 }
 
 main {
@@ -87,7 +91,7 @@ main .intro {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    color: var(--color-text-on-the-black-background);
+    color: var(--intro-color);
     background-color: rgba(0, 0, 0, 0.5);
     background-image: url("mountains.svg");
     background-size: cover;
@@ -103,7 +107,7 @@ main .intro {
     border-radius: 50%;
     margin: 30px 0;
     border: 10px solid white;
-    box-shadow: 0 0 15px black;
+    box-shadow: var(--intro-photo-box-shadow);
 }
 
 .intro h1 {
@@ -114,139 +118,6 @@ main .intro {
 .intro h2 {
     margin: 15px 0;
     text-shadow: #000000 3px -2px 5px;
-}
-
-main .about {
-    background-color: var(--main-background);
-    padding: 70px 0;
-}
-
-.about .about__title {
-    display: flex;
-    justify-content: center;
-    padding: 50px 0;
-}
-
-.about .about__contacts {
-    display: flex;
-    justify-content: center;
-    padding: 50px 0;
-}
-
-.about .about__contacts a {
-    width: 25px;
-    height: 25px;
-    margin: 0 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.skills {
-    display: flex;
-    flex-direction: column;
-    padding: 70px 0;
-    margin: 0 20px;
-}
-
-.skills .skills__wrapper {
-    margin: auto;
-    max-width: 1440px;
-}
-
-.skills .skills__title {
-    display: flex;
-    justify-content: center;
-    padding: 50px 0;
-    color: var(--color-text-on-the-black-background);
-    text-shadow: #000000 3px -2px 5px;
-}
-
-.skills .all-skills {
-    display: flex;
-    justify-content: center;
-    padding: 50px 0;
-}
-
-.skills .all-skills .skills__block {
-    margin: 5px;
-    border-radius: 5px;
-    list-style-type: none;
-    cursor: default;
-}
-
-.skills .all-skills .skills__block p {
-    padding: 5px;
-    margin: 5px;
-    border-radius: 5px;
-    background-color: var(--all-skills-background);
-    transition: opacity .3s ease-in-out;
-    animation: glowing345 20s linear infinite;
-}
-
-.projects {
-    background-color: var(--main-background);
-    padding: 70px 0;
-}
-
-.projects .projects__wrapper {
-    margin: auto;
-    max-width: 1440px;
-}
-
-.projects .projects__title {
-    display: flex;
-    justify-content: center;
-    padding: 50px 0;
-}
-
-.projects .projects__list {
-    display: flex;
-    justify-content: center;
-    padding: 50px 0;
-}
-
-.projects .projects__list .project {
-    width: 33%;
-    margin: 0 20px;
-    padding: 40px;
-    cursor: default;
-    border-radius: 40px;
-    background: white;
-    box-shadow: 15px 15px 30px #bebebe;
-    transition: all .3s;
-}
-
-.projects .projects__list .project:hover {
-    position: revert;
-    margin-top: -30px;
-    margin-bottom: 30px;
-}
-
-.projects .projects__list .project p {
-    margin: 20px 0;
-}
-
-.projects .projects__list .project .project__image {
-    width: 100%;
-    border-radius: 10px;
-}
-
-.projects .projects__list .project .project__stake {
-    display: flex;
-    justify-content: center;
-}
-
-.projects .projects__list .project .project__stake p {
-    margin: 5px;
-    padding: 5px;
-    border-radius: 10px;
-    box-shadow: var(--projects-box-shadow);
-}
-
-.projects .projects__list .project a {
-    display: flex;
-    justify-content: center;
 }
 
 footer {

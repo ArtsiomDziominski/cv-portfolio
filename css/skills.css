@@ -32,11 +32,12 @@
 }
 
 .skills .all-skills .skills__block p {
-    padding: 5px;
+    padding: 10px;
     margin: 5px;
     border-radius: 5px;
     background-color: var(--all-skills-background);
     color: var(--all-skills-color);
     transition: opacity .3s ease-in-out;
     animation: glowing345 20s linear infinite;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
 }

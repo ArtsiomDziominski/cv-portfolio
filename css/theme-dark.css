@@ -7,17 +7,17 @@
     --header-background: linear-gradient(to right, rgba(69, 51, 61, 0.6), rgba(65, 64, 91, 0.6), rgba(52, 44, 61, 0.6));
     --header-color: black;
     --header-color-hover: black;
-    --header-color-link-text-shadow: 0 0 10px white;
+    --header-color-link-text-shadow: 0px 0px 10px white;
 
     --main-background: #363e4e;
     --main-color: white;
 
     --intro-color: white;
     --intro-background-dow-cv: #42405a;
-    --intro-photo-box-shadow: 0 0 15px black;
+    --intro-photo-box-shadow: 5px 5px 10px black;
 
-    --all-skills-background: #a198c1;
-    --all-skills-color: #000000;
+    --all-skills-background: #363e4e;
+    --all-skills-color: white;
 
     --projects-box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.15);
 

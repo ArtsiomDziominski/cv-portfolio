@@ -21,6 +21,7 @@ body {
     flex-direction: column;
     background-color: black;
     color: var(--color);
+    font-family: Roboto, sans-serif;
 }
 
 body .background-image {

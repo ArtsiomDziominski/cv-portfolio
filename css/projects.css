@@ -13,6 +13,7 @@
     display: flex;
     justify-content: center;
     padding: 50px 0;
+    font-size: var(--size-title);
 }
 
 .projects .projects__list {
@@ -22,22 +23,34 @@
     padding: 50px 0;
 }
 
+.project .project__link {
+    position: absolute;
+    bottom: 5px;
+    left: 50%;
+    transform:translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+}
+
+.project .project__link a {
+
+}
+
 .projects .projects__list .project {
     min-width: 300px;
     max-width: 400px;
     margin: 20px;
-    padding: 40px;
+    padding: 40px 40px 80px 40px;
     cursor: default;
     border-radius: 40px;
     background-color: var(--main-background);
     box-shadow: var(--projects-box-shadow);
     transition: all .3s;
+    position: relative;
 }
 
 .projects .projects__list .project:hover {
-    position: revert;
-    margin-top: -30px;
-    margin-bottom: 30px;
+
 }
 
 .projects .projects__list .project p {

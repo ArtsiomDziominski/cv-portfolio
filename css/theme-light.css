@@ -4,7 +4,7 @@
     --color-text-on-the-black-background: white;
     --color-text-on-the-light-background: black;
 
-    --header-background: linear-gradient(to right, rgba(69, 51, 61, 0.3), rgba(65, 64, 91, 0.3), rgba(52, 44, 61, 0.3));
+    --header-background: rgba(0, 0, 0, 0.1);
     --header-color: white;
     --header-color-hover: black;
     --header-color-link-text-shadow: 0px 0px 10px black;
@@ -13,7 +13,7 @@
     --main-color: black;
 
     --intro-color: white;
-    --intro-background-dow-cv: #42405a;
+    --intro-background-dow-cv: #565381;
     --intro-photo-box-shadow: 5px 5px 10px #3f3f5e;
 
     --all-skills-background: #a198c1;

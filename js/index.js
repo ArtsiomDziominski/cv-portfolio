@@ -14,12 +14,40 @@ const changeLangButton = document.getElementById('change-lang');
 const scrollDownButton = document.getElementById('scroll-down');
 const languageButtonImage = document.getElementById('change-lang-img');
 const backgroundImage = document.getElementById('background-image');
+const aboutBlock = document.getElementById('about');
 
 let language;
 
 theme.className = localStorage.getItem(THEME) || THEME_LIGHT;
 changeThemes();
 changeStyle();
+
+
+// const bg = document.getElementById("intro__photo")
+// let introStyleSize = 300;
+// let introStylePosition = 50;
+// window.addEventListener("scroll", function () {
+//     if (5 > window.pageYOffset) {
+//         introStyleSize = 300;
+//         bg.style.position = 'fixed'
+//         bg.style.top = '50%'
+//         bg.style.left = '50%'
+//         bg.style.width = introStyleSize + 'px'
+//         bg.style.height = introStyleSize + 'px'
+//     } else if (5 < window.pageYOffset) {
+//         introStylePosition = introStylePosition-1
+//         bg.style.position = 'fixed'
+//         bg.style.top = introStylePosition + '%'
+//         bg.style.left = introStylePosition + '%'
+//         if (introStyleSize > 100) {
+//             introStyleSize = 300 - window.pageYOffset
+//             bg.style.width = introStyleSize + 'px'
+//             bg.style.height = introStyleSize + 'px'
+//         } else {
+//             introStyleSize = 100;
+//         }
+//     }
+// })
 
 function changeStyle() {
     languageButtonImage.src = theme.className === THEME_DARK ? LANGUAGE_DARK_MODE : LANGUAGE_LIGHT_MODE;
@@ -34,7 +62,8 @@ changeThemeButton.addEventListener('click', () => {
 });
 
 scrollDownButton.addEventListener('click', () => {
-    scrollDownButton.scrollIntoView()
+    aboutBlock.scrollIntoView()
+
 });
 
 function changeThemes() {

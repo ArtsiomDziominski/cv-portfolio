@@ -6,7 +6,7 @@
     <title>Artsiom Dziominski</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap" rel="stylesheet">
     <link type="text/css" rel="stylesheet" href="css/style.css">
     <link type="text/css" rel="stylesheet" href="css/projects.css">
     <link type="text/css" rel="stylesheet" href="css/skills.css">
@@ -22,13 +22,13 @@
 <body class="theme-light" id="theme">
 <div class="background-image" id="background-image"></div>
 <header>
-    <h3 id="name">Артём Дёминский</h3>
+    <a href="#" id="name">Артём Дёминский</a>
     <nav class="nav__main">
         <a class="nav__about" id="about-me-nav" href="#about">Обо мне</a>
         <a class="nav__about" id="projectTitleNav" href="#projects">Проекты</a>
         <a class="nav__about" id="skillsTitleNav" href="#skills">Скилы</a>
     </nav>
-    <div>
+    <div class="change-mode">
         <button class="change-theme" id="change-lang"><img id="change-lang-img" src="static/img/language.svg"
                                                            alt="lang mode">
             <p id="lang-title">RU</p>
@@ -40,15 +40,15 @@
 </header>
 <main>
     <section class="intro" id="intro">
-        <img class="intro__photo" src="static/img/photo.jpg" alt="Photo">
+        <img class="intro__photo" id="intro__photo" src="static/img/photo.jpg" alt="Photo">
         <h1 class="intro__title" id="intro-title">Привет, меня зовут Артём Дёминский</h1>
         <h2 class="intro__about" id="intro-about">я начинающий frontend - разработчик :)</h2>
         <div data-tooltip="Size: 4Mb" class="button-download">
             <div class="button-download-wrapper">
                 <div class="download-text">CV</div>
-                <span class="download-icon">
+                <a class="download-icon" href="/static/CV.docx" download="">
                     <img src="static/img/download.svg" alt="download">
-                </span>
+                </a>
             </div>
         </div>
         <div class="scrolldown" id="scroll-down">
@@ -63,6 +63,12 @@
             <h2 class="about__title" id="about-me">О себе</h2>
             <p class="about__me" id="about-text"></p>
             <ul class="about__contacts">
+                <li class="about__link">
+                    <span class="about__link_tooltip">CV</span>
+                    <a href="/static/CV.docx" download><img
+                            src="static/img/doc.svg"
+                            alt="CV"></a>
+                </li>
                 <li class="about__link">
                     <span class="about__link_tooltip">Mail</span>
                     <a href="mailto:artsiomdziominski@gmail.com" target="_blank"><img src="static/img/mail.svg"
@@ -96,9 +102,9 @@
                     <p>HTML</p>
                 </li>
                 <li class="skills__block">
-                    <p>CSS</p>
-                    <p>Bootstrap</p>
+                    <p>CSS, SASS, SCSS</p>
                     <p>Angular Material</p>
+                    <p>Bootstrap</p>
                 </li>
                 <li class="skills__block">
                     <p>JavaScript</p>
@@ -112,6 +118,11 @@
                     <p>Vue 3</p>
                     <p>Vuex</p>
                     <p>Vue Router</p>
+                </li>
+                <li class="skills__block">
+                    <p>Node.js</p>
+                    <p>Nestjs</p>
+                    <p>Express.js</p>
                 </li>
                 <li class="skills__block">
                     <p>D3.js</p>
@@ -130,10 +141,7 @@
                 <li class="skills__block">
                     <p>Npm</p>
                     <p>Yarn</p></li>
-                <li class="skills__block">
-                    <p>Node.js</p>
-                    <p>Nestjs</p>
-                </li>
+                </il>
                 <li class="skills__block">
                     <p>Firebase</p>
                     <p>MongoDB
@@ -161,8 +169,12 @@
                         <p>RxJs</p>
                         <p>Chart.js</p>
                         <p>Angular Material</p>
+                        <p>Nest.js</p>
                     </div>
-                    <a href="http://1155345-ck17711.tw1.ru/" target="_blank"><img src="static/img/link.svg" alt="link"></a>
+                    <div class="project__link">
+                        <a href="http://1155345-ck17711.tw1.ru/" target="_blank"><img src="static/img/link.svg"
+                                                                                      alt="link"></a>
+                    </div>
                 </div>
                 <div class="project">
                     <h3 class="project__title" id="project2__title">Создание постов</h3>
@@ -176,8 +188,12 @@
                         <p>Vue</p>
                         <p>Vuex</p>
                         <p>MongoDB</p>
+                        <p>Express.js</p>
                     </div>
-                    <a href="" target="_blank"><img src="static/img/link.svg" alt="link"></a>
+                    <div class="project__link">
+                        <a href="http://1155345-ck17711.tw1.ru/" target="_blank"><img src="static/img/link.svg"
+                                                                                      alt="link"></a>
+                    </div>
                 </div>
                 <div class="project">
                     <h3 class="project__title" id="project3__title">ToDo list</h3>
@@ -193,7 +209,10 @@
                         <p>Chart.js</p>
                         <p>Angular Material</p>
                     </div>
-                    <a href="" target="_blank"><img src="static/img/link.svg" alt="link"></a>
+                    <div class="project__link">
+                        <a href="http://1155345-ck17711.tw1.ru/" target="_blank"><img src="static/img/link.svg"
+                                                                                      alt="link"></a>
+                    </div>
                 </div>
             </div>
         </div>

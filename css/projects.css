@@ -18,12 +18,14 @@
 .projects .projects__list {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     padding: 50px 0;
 }
 
 .projects .projects__list .project {
-    width: 33%;
-    margin: 0 20px;
+    min-width: 300px;
+    max-width: 400px;
+    margin: 20px;
     padding: 40px;
     cursor: default;
     border-radius: 40px;
@@ -50,6 +52,7 @@
 .projects .projects__list .project .project__stake {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .projects .projects__list .project .project__stake p {

@@ -1,0 +1,32 @@
+@media screen and (max-width: 800px) {
+    header {
+        background-image: linear-gradient(to right, rgba(69, 51, 61, 0), rgba(65, 64, 91, 0), rgba(52, 44, 61, 0));
+    }
+    header .nav__main {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    header {
+        padding: 5px;
+    }
+    header h3 {
+        display: none;
+    }
+
+    header div {
+        position: absolute;
+        right: 5px;
+        top: 5px;
+    }
+    
+    main .intro {
+        justify-content: start;
+        margin: 0;
+    }
+
+    main .intro h2 {
+        margin: 10px 15px;
+    }
+}

@@ -24,3 +24,7 @@ main .about {
     justify-content: center;
     align-items: center;
 }
+
+.about .about__me {
+    margin: 0 20px;
+}

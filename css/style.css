@@ -35,12 +35,13 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 15px 50px;
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     z-index: 3;
     color: var(--header-color);
     background-color: var(--header-background);
+    backdrop-filter: blur(10px);
 }
 
 header nav {

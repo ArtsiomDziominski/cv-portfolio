@@ -34,4 +34,8 @@
     main .intro h2 {
         margin: 10px 15px;
     }
+
+    main .scrolldown {
+        display: none;
+    }
 }

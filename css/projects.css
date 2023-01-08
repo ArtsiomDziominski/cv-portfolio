@@ -25,12 +25,13 @@
 }
 
 .project .project__link {
+    width: 150px;
     position: absolute;
-    bottom: 5px;
+    bottom: -10px;
     left: 50%;
-    transform:translate(-50%, -50%);
+    transform: translate(-50%, -50%);
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .project .project__link a svg {
@@ -54,10 +55,6 @@
 
 }
 
-.projects .projects__list .project p {
-    margin: 20px 0;
-}
-
 .projects .projects__list .project .project__image {
     width: 100%;
     border-radius: 10px;
@@ -76,7 +73,39 @@
     box-shadow: var(--projects-box-shadow);
 }
 
-.projects .projects__list .project a {
+.project .project__title {
+    margin-bottom: 20px;
+}
+
+.project .project__about {
+    margin-bottom: 20px;
+    height: 155px;
+}
+
+.project .project__image {
+    margin-bottom: 20px;
+}
+
+.project__link_wrapper {
+    position: relative;
     display: flex;
     justify-content: center;
+    align-items: center;
+}
+
+
+.project__link_wrapper:hover .project__link_title {
+    opacity: 1;
+}
+
+.project__link_title {
+    position: absolute;
+    top: -30px;
+    left: -10px;
+    color: var(--all-skills-color);
+    background-color: var(--main-background);
+    padding: 5px;
+    border-radius: 5px;
+    opacity: 0;
+    box-shadow: var(--projects-link-title-box-shadow);
 }

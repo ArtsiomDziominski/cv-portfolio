@@ -6,7 +6,7 @@
   "helloNext": "I'm beginning  frontend-developer :)",
   "about": {
     "aboutTitle": "About myself",
-    "aboutText": "I have always been passionate about technology and I like to create something of my own. Developed servers for SAMP, wrote in PAWN. Self-taught the Python language, after which he became interested in frontend development and decided to build his career in this direction."
+    "aboutText": "I have always been fascinated by technology and enjoy to create something of my own. For example, back in school I developed servers for SAMP and programmed in the PAWN language, I was fond of Arduino. I self-taught the Python language, after that I got interested in front-end development and decided to build my career in this direction. \nNow every day I am developing my own projects and learning new frameworks. \nEasily adaptable and always result-oriented . My previous job in logistics has taught me how to work quickly and complete large projects on tight deadlines, as well as switch easily between different tasks and work effectively in a team."
   },
   "skills": {
     "skillsTitle": "Skills"
@@ -15,15 +15,15 @@
     "projectTitle": "Project",
     "project1": {
       "name": "Trading platform for Binance",
-      "about": "Built an internal tool for analysing Workrooms Meetings used by 70+ Data, Software and QA Engineers."
+      "about": "The trading platform was created to help you trade futures on the largest crypto exchange Binance. The tactic is to grid trade in the long. The trading platform provides statistics on futures, places orders according to specified parameters"
     },
     "project2": {
-      "name": "Create posts",
-      "about": "Built an internal tool for analysing Workrooms Meetings used by 70+ Data, Software and QA Engineers."
+      "name": "Share your thoughts",
+      "about": "This site is an open platform where each user can express their thoughts on any topic by writing a post about it."
     },
     "project3": {
-      "name": "ToDo list",
-      "about": "Built an internal tool for analysing Workrooms Meetings used by 70+ Data, Software and QA Engineers."
+      "name": "To-do list",
+      "about": "To-do list is a platform for creating a to-do list or task list. The user can write down all his important tasks in it, so as not to forget, which allows you to effectively organize your working time"
     }
   }
 }

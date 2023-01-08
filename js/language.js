@@ -46,7 +46,7 @@ function nameButtons(langJson) {
     document.getElementById('project2__title').innerHTML = langJson.projects.project2.name;
     document.getElementById('project3__title').innerHTML = langJson.projects.project3.name;
 
-    document.getElementById('project1__about').innerHTML = langJson.projects.project3.about;
-    document.getElementById('project2__about').innerHTML = langJson.projects.project3.about;
+    document.getElementById('project1__about').innerHTML = langJson.projects.project1.about;
+    document.getElementById('project2__about').innerHTML = langJson.projects.project2.about;
     document.getElementById('project3__about').innerHTML = langJson.projects.project3.about;
 }

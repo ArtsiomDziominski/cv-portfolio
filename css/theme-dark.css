@@ -1,10 +1,10 @@
 .theme-dark {
-    --background: linear-gradient(to right, rgb(69, 51, 61), rgb(65, 64, 91), rgb(52, 44, 61));
+    --background: linear-gradient(to right, rgb(56, 42, 50), rgb(56, 55, 79), rgb(43, 37, 51));
     --color: white;
     --color-text-on-the-black-background: white;
     --color-text-on-the-light-background: white;
 
-    --header-background: rgba(0, 0, 0, 0.2);
+    --header-background: rgba(0, 0, 0, 0.6);
     --header-color: #d9d9d9;
     --header-color-hover: black;
     --header-color-link-text-shadow: 0px 0px 10px white;
@@ -23,5 +23,5 @@
 
     --about-link-background: rgb(67, 64, 91);
 
-    --project-link-background: white;
+    --project-link-background: #e5e5e5;
 }

@@ -2,6 +2,7 @@ main .about {
     background-color: var(--main-background);
     padding: 70px 0;
     color: var(--color-text-on-the-light-background);
+    transition: all .3s;
 }
 
 .about .about__title {

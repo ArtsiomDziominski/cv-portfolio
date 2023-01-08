@@ -16,6 +16,7 @@
     padding: 50px 0;
     color: var(--color-text-on-the-black-background);
     font-size: var(--size-title);
+    transition: all .3s;
 }
 
 .skills .all-skills {

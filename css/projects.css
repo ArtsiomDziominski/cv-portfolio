@@ -2,6 +2,7 @@
     background-color: var(--main-background);
     padding: 70px 0;
     color: var(--color-text-on-the-light-background);
+    transition: all .3s;
 }
 
 .projects .projects__wrapper {
@@ -32,8 +33,8 @@
     justify-content: center;
 }
 
-.project .project__link a {
-
+.project .project__link a svg {
+    fill: var(--project-link-background);
 }
 
 .projects .projects__list .project {

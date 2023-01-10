@@ -26,6 +26,7 @@
 
 .project .project__link {
     width: 150px;
+    height: 52px;
     position: absolute;
     bottom: -10px;
     left: 50%;
@@ -57,7 +58,9 @@
 
 .projects .projects__list .project .project__image {
     width: 100%;
+    height: 200px;
     border-radius: 10px;
+    border: 1px black solid;
 }
 
 .projects .projects__list .project .project__stake {
